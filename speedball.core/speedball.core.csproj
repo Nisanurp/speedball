@@ -40,6 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ArraysAndStrings\Permutation.cs" />
     <Compile Include="ArraysAndStrings\UniqueChecker.cs" />
     <Compile Include="DataStructures\Node.cs" />
     <Compile Include="DataStructures\Queue.cs" />

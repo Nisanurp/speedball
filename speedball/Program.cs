@@ -12,11 +12,15 @@ namespace speedball
         static void Main(string[] args)
         {
             Temp();
-            var option = 1;
+            var option = 2;
             switch (option)
             {
                 case 1:
                     UniqueChecker.Run();
+                    break;
+
+                case 2:
+                    Permutation.Run();
                     break;
 
                 default:
