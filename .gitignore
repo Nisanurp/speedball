@@ -1,0 +1,25 @@
+# Build and Object Folders
+bin/
+obj/
+
+# Build Folders (you can keep bin if you'd like, to store dlls and pdbs)
+bin
+obj
+
+#User Specific Files
+*.user
+*.suo
+
+#Resource Caches
+_ReSharper.*
+*.sln.cache
+
+# mstest test results
+TestResults
+
+# various project files/folders
+logs
+publish
+publish.zip
+.svn
+*.jtconfig
