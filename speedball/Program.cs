@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 
 using speedball.core.ArraysAndStrings;
+using speedball.core.LinkedLists;
 
 namespace speedball
 {
@@ -11,8 +12,7 @@ namespace speedball
     {
         static void Main(string[] args)
         {
-            Temp();
-            var option = 2;
+            var option = 7;
             switch (option)
             {
                 case 1:
@@ -23,6 +23,26 @@ namespace speedball
                     Permutation.Run();
                     break;
 
+                case 3:
+                    StringCompression.Run();
+                    break;
+
+                case 4:
+                    StringChecker.Run();
+                    break;
+
+                case 5:
+                    MatrixModifier.Run();
+                    break;
+
+                case 6:
+                    ImageRotation.Run();
+                    break;
+
+                case 7:
+                    LinkedListDeduplicator.Run();
+                    break;
+
                 default:
                     Console.WriteLine("No option selected.");
                     break;
@@ -30,13 +50,6 @@ namespace speedball
 
             Console.WriteLine("Press any key to close this app.");
             Console.ReadKey();
-        }
-
-        private static void Temp()
-        {
-            var foo = new Dictionary<int, int>();
-            var bar = new StringBuilder();
-            foo.Add(1,2);
         }
     }
 }

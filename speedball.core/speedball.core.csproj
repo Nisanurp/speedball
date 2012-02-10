@@ -40,17 +40,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ArraysAndStrings\ImageRotation.cs" />
+    <Compile Include="ArraysAndStrings\MatrixHelper.cs" />
+    <Compile Include="ArraysAndStrings\MatrixModifier.cs" />
     <Compile Include="ArraysAndStrings\Permutation.cs" />
+    <Compile Include="ArraysAndStrings\StringChecker.cs" />
+    <Compile Include="ArraysAndStrings\StringCompression.cs" />
     <Compile Include="ArraysAndStrings\UniqueChecker.cs" />
     <Compile Include="DataStructures\Node.cs" />
     <Compile Include="DataStructures\Queue.cs" />
     <Compile Include="DataStructures\Stack.cs" />
+    <Compile Include="LinkedLists\LinkedListDeduplicator.cs" />
+    <Compile Include="LinkedLists\LinkedListHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="BitManipulation\" />
     <Folder Include="BrainTeasers\" />
-    <Folder Include="LinkedLists\" />
     <Folder Include="MathematicsAndProbability\" />
     <Folder Include="ObjectOrientedDesign\" />
     <Folder Include="RecursionAndDynamicProgramming\" />
