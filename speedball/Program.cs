@@ -4,7 +4,9 @@ using System.Linq;
 using System.Text;
 
 using speedball.core.ArraysAndStrings;
+using speedball.core.BitManipulation;
 using speedball.core.LinkedLists;
+using speedball.core.RecursionAndDynamicProgramming;
 
 namespace speedball
 {
@@ -12,7 +14,7 @@ namespace speedball
     {
         static void Main(string[] args)
         {
-            var option = 7;
+            var option = 9;
             switch (option)
             {
                 case 1:
@@ -41,6 +43,14 @@ namespace speedball
 
                 case 7:
                     LinkedListDeduplicator.Run();
+                    break;
+
+                case 8:
+                    BitManipulationHelper.Run();
+                    break;
+
+                case 9:
+                    FibonacciHelper.Run();
                     break;
 
                 default:

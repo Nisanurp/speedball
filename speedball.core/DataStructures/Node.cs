@@ -7,12 +7,14 @@ namespace speedball.core.DataStructures
 {
     public class Node
     {
+        public NodeState NodeState { get; set; }
         public Node Next = null;
         public object Data;
 
         public Node(object d)
         {
             Data = d;
+            NodeState = NodeState.Unvisited;
         }
 
         public void AppendToTail(object d)
