@@ -49,6 +49,7 @@
     <Compile Include="ArraysAndStrings\StringCompression.cs" />
     <Compile Include="ArraysAndStrings\UniqueChecker.cs" />
     <Compile Include="BitManipulation\BitManipulationHelper.cs" />
+    <Compile Include="DataStructures\BitSet.cs" />
     <Compile Include="DataStructures\Graph.cs" />
     <Compile Include="DataStructures\GraphNode.cs" />
     <Compile Include="DataStructures\Node.cs" />
@@ -61,8 +62,14 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RecursionAndDynamicProgramming\FibonacciHelper.cs" />
     <Compile Include="RecursionAndDynamicProgramming\MagicIndexFinder.cs" />
+    <Compile Include="RecursionAndDynamicProgramming\ParenthesisHelper.cs" />
     <Compile Include="RecursionAndDynamicProgramming\RobotPathFinder.cs" />
+    <Compile Include="RecursionAndDynamicProgramming\SetHelper.cs" />
     <Compile Include="RecursionAndDynamicProgramming\StaircaseSolver.cs" />
+    <Compile Include="RecursionAndDynamicProgramming\StringHelper.cs" />
+    <Compile Include="ScalabilityAndMemoryLimits\MemoryHelper.cs" />
+    <Compile Include="SortingAndSearching\ArrayHelper.cs" />
+    <Compile Include="StacksAndQueues\StackHelper.cs" />
     <Compile Include="TreesAndGraphs\BinarySearchTreeCreator.cs" />
     <Compile Include="TreesAndGraphs\BinaryTreeChecker.cs" />
     <Compile Include="TreesAndGraphs\DirectedGraphHelper.cs" />
@@ -71,7 +78,6 @@
     <Folder Include="BrainTeasers\" />
     <Folder Include="MathematicsAndProbability\" />
     <Folder Include="ObjectOrientedDesign\" />
-    <Folder Include="StacksAndQueues\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
